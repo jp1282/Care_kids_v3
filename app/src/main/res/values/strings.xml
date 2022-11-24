@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Care Kids</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoianVhbnBhcGluYSIsImEiOiJjbDllc2pyeGExb2NsM3ZvNnQ4b3l3aWRoIn0.qP5mCUPQoNxYNjQEr4zaAQ</string>
+    <string name="seleccionar_contacto">Seleccionar Contacto</string>
+    <string name="enviar_mensaje">Enviar Mensaje</string>
+    <string name="seleccionar_mensaje">Seleccionar Mensaje</string>
+    <string name="todo">TODO</string>
+    <string name="enviar">Enviar</string>
+    <string name="enviar_ubicacion">Enviar Ubicacion</string>
+</resources>

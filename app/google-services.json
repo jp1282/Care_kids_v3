@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243919177157",
+    "project_id": "carekids-36ede",
+    "storage_bucket": "carekids-36ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243919177157:android:0b78f1369de5bd43c737ac",
+        "android_client_info": {
+          "package_name": "juanpina.care_kids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243919177157-f2npn66k02037646a3ghmi5neioghmvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcXy8-c0Yus9uAcmUigWI_q7_CFJF5XlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243919177157-f2npn66k02037646a3ghmi5neioghmvm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

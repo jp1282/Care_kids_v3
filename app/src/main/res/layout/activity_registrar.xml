@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context="juanpina.care_kids.Registrar">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/logo_1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/ETInombre"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:enabled="false"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/ETIPassword"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:enabled="false"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETInombre" />
+
+    <EditText
+        android:id="@+id/ETInombrecontacto1"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre Contacto 1"
+        android:enabled="false"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETIPassword" />
+
+    <EditText
+        android:id="@+id/ETInumerocontacto1"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Numero Contacto 1"
+        android:enabled="false"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETInombrecontacto1" />
+
+    <EditText
+        android:id="@+id/ETInombrecontacto2"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre Contacto 2"
+        android:enabled="false"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETInumerocontacto1" />
+
+    <EditText
+        android:id="@+id/ETInumerocontacto2"
+        android:layout_width="183dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Numero Contacto 2"
+        android:enabled="false"
+        android:background="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETInombrecontacto2" />
+
+    <EditText
+        android:id="@+id/boxNombre"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/boxPassword"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxNombre" />
+
+    <EditText
+        android:id="@+id/boxNmbContacto1"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxPassword" />
+
+    <EditText
+        android:id="@+id/boxNroContacto1"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxNmbContacto1" />
+
+    <EditText
+        android:id="@+id/boxNmbContacto2"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxNroContacto1" />
+
+    <EditText
+        android:id="@+id/boxNroContacto2"
+        android:layout_width="190dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="17dp"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxNmbContacto2" />
+
+    <Button
+        android:id="@+id/guardar"
+        android:layout_width="157dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="49dp"
+        android:text="Guardar / Ingresar"
+        android:textColor="@color/blanco"
+        android:textStyle="bold"
+        android:background="@drawable/boton_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETInumerocontacto2" />
+
+    <Button
+        android:id="@+id/btnvolver"
+        android:layout_width="154dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/boton_3"
+        android:text="Volver"
+        android:textColor="@color/blanco"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boxNroContacto2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
